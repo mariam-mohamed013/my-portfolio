@@ -1,0 +1,108 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mariam Mohamed | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Shortcuts on Center Right -->
+  <div class="shortcuts">
+    <a href="#info" title="About Me">👤</a>
+    <a href="#skills" title="Skills">🛠️</a>
+    <a href="#projects" title="Projects">📁</a>
+    <a href="#contact" title="Contact">✉️</a>
+  </div>
+
+  <!-- Info Section -->
+  <section id="info">
+    <div class="info-container">
+      <img src="profile.jpg" alt="Mariam Mohamed" class="profile-pic" />
+      <div>
+        <h1>Hello, I'm Mariam Mohamed</h1>
+        <p>Computer Science Student | Web & C++ Developer</p>
+        <a href="https://drive.google.com/file/d/136gpPnjgiBeyR52EnUkL1ev-4yG4vcVh/view?usp=sharing" target="_blank" class="btn">View Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2><i class="fas fa-code"></i> Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">C++</div>
+      <div class="skill-card">Java</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">HTML & CSS</div>
+      <div class="skill-card">MongoDB</div>
+      <div class="skill-card">Node.js</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2><i class="fas fa-laptop-code"></i> Projects</h2>
+    <div class="projects-container">
+      <div class="card">
+        <h3>Clothes Management System</h3>
+        <p>Java GUI system for managing clothes, with admin/user features.</p>
+        <a href="https://github.com/mariam-mohamed013/Clothes-management-system" target="_blank" class="btn">GitHub</a>
+      </div>
+      <div class="card">
+        <h3>C++ Projects</h3>
+        <p>Multiple C++ programs using data structures and algorithms.</p>
+        <a href="https://github.com/mariam-mohamed013/cpp-projects-container" target="_blank" class="btn">GitHub</a>
+      </div>
+      <div class="card">
+        <h3>IRecipe Web App</h3>
+        <p>Full stack recipe-sharing platform with admin features.</p>
+        <a href="https://github.com/fatmagamal5/IRecipe" target="_blank" class="btn">GitHub</a>
+      </div>
+      <div class="card">
+        <h3>Networking Project</h3>
+        <p>Advanced Cisco Packet Tracer network design using OSPF, NAT, DHCP.</p>
+        <a href="https://github.com/mariam-mohamed013/CSC230-Computer-Networks-Project-MIU-Spring-2025-Network" target="_blank" class="btn">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Download -->
+  <div class="download-resume">
+    <a href="Mariam_resume.pdf" download class="btn"><i class="fas fa-download"></i> Download Resume</a>
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+    <form id="contactForm" class="contact-form">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+      <div class="form-group">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Send Email</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Mariam Mohamed | All Rights Reserved</p>
+    <div class="socials">
+      <a href="https://github.com/mariam-mohamed013" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:mariammohamedd013@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/mariam-moahmed-b35bb1370/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <!-- Go to Top Button -->
+  <button onclick="goTop()" id="topBtn">⬆️</button>
+</body>
+</html>
